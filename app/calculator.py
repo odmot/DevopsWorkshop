@@ -21,3 +21,6 @@ def percentage(part, whole):
     if whole == 0:
         raise ValueError("Whole cannot be zero")
     return (part / whole) * 100
+
+def power(a, b):
+	return a ** b
